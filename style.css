@@ -1,0 +1,30 @@
+html{
+  box-sizing: border-box;
+  font-size: 45px;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+h1{text-align: center;
+  color: blue;
+}
+.navegador{margin-left: 0;
+  margin-right: 0;
+  background-color: #0000ff50;
+}
+.navegador>ul{list-style: none;
+  
+}
+.navegador>ul a{text-decoration: none;}
+.navegador li{display: inline-block;
+  margin: 5px;
+}
+.navegador li>a{font-style: italic;}
+.navegador li>a:link{color: blue;
+
+}
+
+.navegador li>a:visited{color: red;}
+.navegador li>a:hover{color: yellow;}
+
+.navegador li>a:active{color: green;}
